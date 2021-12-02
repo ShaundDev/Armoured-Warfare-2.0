@@ -109,10 +109,22 @@ technology_folders = {
 			}
 		}
 	}
+	eng_nsb_armour_folder = {
+		ledger = army
+		available = {
+			has_dlc = "No Step Back"
+#			AND = {
+				original_tag = ENG
+#			}
+		}
+	}
 	nsb_armour_folder = {
 		ledger = army
 		available = {
 			has_dlc = "No Step Back"
+			NOT = {
+				original_tag = ENG
+			}
 		}
 	}
 	artillery_folder = {
